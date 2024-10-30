@@ -1,0 +1,339 @@
+{
+    "departments": [
+        {
+            "name": "Executive",
+            "short_name": "EXEC",
+            "description": "Oversees the overall operation and strategic planning of the facility.",
+            "job_roles": ["Chief Executive Officer (CEO)", "Chief Operating Officer (COO)", "Executive Assistant", "Chief Counsel"],
+            "roles_count": {
+                "Chief Executive Officer (CEO)": 1,
+                "Chief Operating Officer (COO)": 1,
+                "Executive Assistant": 3,
+                "Chief Counsel": 1
+            }
+        },
+        {
+            "name": "Emergency Department",
+            "short_name": "ED",
+            "description": "Provides immediate care for acute illnesses and injuries.",
+            "job_roles": ["Head of Emergency Department", "Emergency Physician", "Nurse", "Paramedic", "Patient Care Technician"],
+            "roles_count": {
+                "Head of Emergency Department": 1,
+                "Emergency Physician": 30,
+                "Nurse": 60,
+                "Paramedic": 45,
+                "Patient Care Technician": 30
+            }
+        },
+        {
+            "name": "Cardiology",
+            "short_name": "CARDIO",
+            "description": "Specializes in heart-related conditions and treatments.",
+            "job_roles": ["Head of Cardiology", "Cardiologist", "Cardiac Nurse", "Echocardiogram Technician", "Cardiac Catheterization Lab Technician"],
+            "roles_count": {
+                "Head of Cardiology": 1,
+                "Cardiologist": 5,
+                "Cardiac Nurse": 20,
+                "Echocardiogram Technician": 5,
+                "Cardiac Catheterization Lab Technician": 5
+            }
+        },
+        {
+            "name": "Radiology",
+            "short_name": "RAD",
+            "description": "Performs imaging services like X-rays, MRIs, and CT scans.",
+            "job_roles": ["Head of Radiology", "Radiologist", "Radiologic Technologist", "MRI Technician", "Ultrasound Technician"],
+            "roles_count": {
+                "Head of Radiology": 1,
+                "Radiologist": 10,
+                "Radiologic Technologist": 20,
+                "MRI Technician": 5,
+                "Ultrasound Technician": 10
+            }
+        },
+        {
+            "name": "Pediatrics",
+            "short_name": "PEDS",
+            "description": "Focuses on the medical care of infants, children, and adolescents.",
+            "job_roles": ["Head of Pediatrics", "Pediatrician", "Pediatric Nurse", "Pediatric Nurse Practitioner", "Child Life Specialist"],
+            "roles_count": {
+                "Head of Pediatrics": 1,
+                "Pediatrician": 10,
+                "Pediatric Nurse": 20,
+                "Pediatric Nurse Practitioner": 5,
+                "Child Life Specialist": 5
+            }
+        },
+        {
+            "name": "Oncology",
+            "short_name": "ONC",
+            "description": "Specializes in the diagnosis and treatment of cancer.",
+            "job_roles": ["Head of Oncology", "Oncologist", "Oncology Nurse", "Radiation Therapist", "Medical Oncologist"],
+            "roles_count": {
+                "Head of Oncology": 1,
+                "Oncologist": 5,
+                "Oncology Nurse": 20,
+                "Radiation Therapist": 5,
+                "Medical Oncologist": 5
+            }
+        },
+        {
+            "name": "Orthopedics",
+            "short_name": "ORTHO",
+            "description": "Deals with conditions involving the musculoskeletal system.",
+            "job_roles": ["Head of Orthopedics", "Orthopedic Surgeon", "Orthopedic Nurse", "Physical Therapist", "Orthopedic Technician"],
+            "roles_count": {
+                "Head of Orthopedics": 1,
+                "Orthopedic Surgeon": 5,
+                "Orthopedic Nurse": 20,
+                "Physical Therapist": 10,
+                "Orthopedic Technician": 5
+            }
+        },
+        {
+            "name": "Neurology",
+            "short_name": "NEURO",
+            "description": "Focuses on disorders of the nervous system.",
+            "job_roles": ["Head of Neurology", "Neurologist", "Neurosurgeon", "Neurology Nurse", "Electroencephalogram (EEG) Technician"],
+            "roles_count": {
+                "Head of Neurology": 1,
+                "Neurologist": 5,
+                "Neurosurgeon": 5,
+                "Neurology Nurse": 20,
+                "Electroencephalogram (EEG) Technician": 5
+            }
+        },
+        {
+            "name": "Obstetrics and Gynecology",
+            "short_name": "OBGYN",
+            "description": "Provides care related to pregnancy, childbirth, and female reproductive health.",
+            "job_roles": ["Head of Obstetrics and Gynecology", "Obstetrician-Gynecologist", "Midwife", "OB-GYN Nurse", "Ultrasound Technician"],
+            "roles_count": {
+                "Head of Obstetrics and Gynecology": 1,
+                "Obstetrician-Gynecologist": 5,
+                "Midwife": 5,
+                "OB-GYN Nurse": 20,
+                "Ultrasound Technician": 5
+            }
+        },
+        {
+            "name": "Anesthesiology",
+            "short_name": "ANES",
+            "description": "Manages anesthesia and pain relief during surgeries and other procedures.",
+            "job_roles": ["Head of Anesthesiology", "Anesthesiologist", "Nurse Anesthetist", "Anesthesia Technician", "Pain Management Specialist"],
+            "roles_count": {
+                "Head of Anesthesiology": 1,
+                "Anesthesiologist": 5,
+                "Nurse Anesthetist": 20,
+                "Anesthesia Technician": 5,
+                "Pain Management Specialist": 5
+            }
+        },
+        {
+            "name": "Surgery",
+            "short_name": "SURG",
+            "description": "Performs operative procedures to treat diseases, injuries, and deformities.",
+            "job_roles": ["Head of Surgery", "Surgeon", "Surgical Nurse", "Surgical Technician", "Operating Room Assistant"],
+            "roles_count": {
+                "Head of Surgery": 1,
+                "Surgeon": 10,
+                "Surgical Nurse": 20,
+                "Surgical Technician": 10,
+                "Operating Room Assistant": 5
+            }
+        },
+        {
+            "name": "Pathology",
+            "short_name": "PATH",
+            "description": "Studies diseases and performs laboratory testing on body tissues and fluids.",
+            "job_roles": ["Head of Pathology", "Pathologist", "Medical Laboratory Technician", "Histotechnologist", "Cytotechnologist"],
+            "roles_count": {
+                "Head of Pathology": 1,
+                "Pathologist": 5,
+                "Medical Laboratory Technician": 20,
+                "Histotechnologist": 5,
+                "Cytotechnologist": 5
+            }
+        },
+        {
+            "name": "Physical Therapy",
+            "short_name": "PT",
+            "description": "Provides rehabilitation services to improve mobility and function.",
+            "job_roles": ["Head of Physical Therapy", "Physical Therapist", "Physical Therapist Assistant", "Rehabilitation Aide", "Occupational Therapist"],
+            "roles_count": {
+                "Head of Physical Therapy": 1,
+                "Physical Therapist": 20,
+                "Physical Therapist Assistant": 10,
+                "Rehabilitation Aide": 10,
+                "Occupational Therapist": 5
+            }
+        },
+        {
+            "name": "Pharmacy",
+            "short_name": "PHARM",
+            "description": "Dispenses medications and provides pharmaceutical care.",
+            "job_roles": ["Head of Pharmacy", "Pharmacist", "Pharmacy Technician", "Clinical Pharmacist", "Pharmacy Aide"],
+            "roles_count": {
+                "Head of Pharmacy": 1,
+                "Pharmacist": 10,
+                "Pharmacy Technician": 20,
+                "Clinical Pharmacist": 5,
+                "Pharmacy Aide": 5
+            }
+        },
+        {
+            "name": "Internal Medicine",
+            "short_name": "IM",
+            "description": "Offers comprehensive care for adults, dealing with a wide range of health conditions.",
+            "job_roles": ["Head of Internal Medicine", "Internist", "Internal Medicine Nurse", "Medical Assistant", "Internal Medicine Physician Assistant"],
+            "roles_count": {
+                "Head of Internal Medicine": 1,
+                "Internist": 10,
+                "Internal Medicine Nurse": 20,
+                "Medical Assistant": 20,
+                "Internal Medicine Physician Assistant": 5
+            }
+        },
+        {
+            "name": "Psychiatry",
+            "short_name": "PSYCH",
+            "description": "Provides mental health services, including diagnosis, treatment, and prevention of mental illnesses.",
+            "job_roles": ["Head of Psychiatry", "Psychiatrist", "Psychiatric Nurse", "Psychologist", "Mental Health Counselor"],
+            "roles_count": {
+                "Head of Psychiatry": 1,
+                "Psychiatrist": 5,
+                "Psychiatric Nurse": 20,
+                "Psychologist": 5,
+                "Mental Health Counselor": 5
+            }
+        },
+        {
+            "name": "IT Department",
+            "short_name": "IT",
+            "description": "Manages information technology systems and support.",
+            "job_roles": ["Chief Information Officer (CIO)", "IT Manager", "Network Administrator", "Systems Analyst", "Technical Support Specialist"],
+            "roles_count": {
+                "Chief Information Officer (CIO)": 1,
+                "IT Manager": 5,
+                "Network Administrator": 5,
+                "Systems Analyst": 5,
+                "Technical Support Specialist": 10
+            }
+        },
+        {
+            "name": "Finance Department",
+            "short_name": "FIN",
+            "description": "Handles budgeting, billing, and financial planning.",
+            "job_roles": ["Chief Financial Officer (CFO)", "Accountant", "Billing Specialist", "Financial Analyst"],
+            "roles_count": {
+                "Chief Financial Officer (CFO)": 1,
+                "Accountant": 5,
+                "Billing Specialist": 10,
+                "Financial Analyst": 5
+            }
+        },
+        {
+            "name": "Human Resources",
+            "short_name": "HR",
+            "description": "Manages employee relations, recruitment, and benefits.",
+            "job_roles": ["Head of Human Resources", "HR Manager", "Recruitment Specialist", "Benefits Coordinator", "HR Generalist"],
+            "roles_count": {
+                "Head of Human Resources": 1,
+                "HR Manager": 5,
+                "Recruitment Specialist": 5,
+                "Benefits Coordinator": 5,
+                "HR Generalist": 10
+            }
+        },
+        {
+            "name": "Administration",
+            "short_name": "ADMIN",
+            "description": "Oversees the overall operation and strategic planning of the facility.",
+            "job_roles": ["Hospital Administrator", "Executive Assistant", "Operations Manager", "Clinical Director"],
+            "roles_count": {
+                "Hospital Administrator": 1,
+                "Executive Assistant": 3,
+                "Operations Manager": 5,
+                "Clinical Director": 1
+            }
+        },
+        {
+            "name": "Facilities Management",
+            "short_name": "FACILITIES",
+            "description": "Maintains the physical infrastructure and environment of the medical facility.",
+            "job_roles": ["Head of Facilities Management", "Facilities Manager", "Maintenance Technician", "Custodial Staff", "Safety Officer"],
+            "roles_count": {
+                "Head of Facilities Management": 1,
+                "Facilities Manager": 5,
+                "Maintenance Technician": 10,
+                "Custodial Staff": 10,
+                "Safety Officer": 5
+            }
+        },
+        {
+            "name": "Information Security",
+            "short_name": "SECURITY",
+            "description": "Protects digital assets and patient information from security threats.",
+            "job_roles": ["Chief Information Security Officer (CISO)", "Cybersecurity Analyst", "Information Security Manager", "Network Security Engineer", "Security Auditor"],
+            "roles_count": {
+                "Chief Information Security Officer (CISO)": 1,
+                "Cybersecurity Analyst": 5,
+                "Information Security Manager": 2,
+                "Network Security Engineer": 5,
+                "Security Auditor": 5
+            }
+        },
+        {
+            "name": "Compliance and Regulatory Affairs",
+            "short_name": "COMPLIANCE",
+            "description": "Ensures adherence to healthcare laws and regulations.",
+            "job_roles": ["Chief Compliance Officer", "Compliance Officer", "Regulatory Affairs Specialist", "Quality Assurance Manager", "Health Information Manager"],
+            "roles_count": {
+                "Chief Compliance Officer": 1,
+                "Compliance Officer": 5,
+                "Regulatory Affairs Specialist": 5,
+                "Quality Assurance Manager": 5,
+                "Health Information Manager": 5
+            }
+        },
+        {
+            "name": "Medical Records",
+            "short_name": "MEDREC",
+            "description": "Manages patient records and health information.",
+            "job_roles": ["Head of Medical Records", "Health Information Manager", "Medical Records Technician", "Clinical Documentation Specialist", "Health Information Technician"],
+            "roles_count": {
+                "Head of Medical Records": 1,
+                "Health Information Manager": 5,
+                "Medical Records Technician": 10,
+                "Clinical Documentation Specialist": 5,
+                "Health Information Technician": 10
+            }
+        },
+        {
+            "name": "Marketing and Public Relations",
+            "short_name": "MARKETING",
+            "description": "Promotes the facility’s services and manages public communication.",
+            "job_roles": ["Head of Marketing and Public Relations", "Marketing Manager", "Public Relations Specialist", "Communications Coordinator", "Social Media Manager"],
+            "roles_count": {
+                "Head of Marketing and Public Relations": 1,
+                "Marketing Manager": 2,
+                "Public Relations Specialist": 3,
+                "Communications Coordinator": 5,
+                "Social Media Manager": 5
+            }
+        },
+        {
+            "name": "Supply Chain and Procurement",
+            "short_name": "SUPPLY",
+            "description": "Manages the acquisition of medical supplies and equipment.",
+            "job_roles": ["Head of Supply Chain and Procurement", "Supply Chain Manager", "Procurement Specialist", "Inventory Manager", "Purchasing Agent"],
+            "roles_count": {
+                "Head of Supply Chain and Procurement": 1,
+                "Supply Chain Manager": 2,
+                "Procurement Specialist": 5,
+                "Inventory Manager": 5,
+                "Purchasing Agent": 5
+            }
+        }
+    ]
+}
